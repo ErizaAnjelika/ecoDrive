@@ -1,0 +1,11 @@
+/* styles.css */
+.bg-blur {
+  backdrop-filter: blur(10px);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Set transparansi sesuai kebutuhan */
+  transition: backdrop-filter 0.3s, background-color 0.3s; /* Efek transisi */
+}

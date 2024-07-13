@@ -1,0 +1,19 @@
+/* style.css */
+.marquee {
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
